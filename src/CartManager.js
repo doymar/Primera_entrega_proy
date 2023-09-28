@@ -92,11 +92,4 @@ class CartManager {
     }
 }
 
-async function test (){
-const manager1 = new CartManager()
-const carts = await manager1.getCarts()
-console.log(carts);}
-
-test()
-
 export const CartsManager = new CartManager();
